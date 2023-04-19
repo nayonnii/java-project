@@ -1,8 +1,8 @@
-module com.mutsa.backend.javaproject2 {
+module com.example.javaproject2 {
     requires javafx.controls;
     requires javafx.fxml;
-
-
-    opens com.mutsa.backend.javaproject2 to javafx.fxml;
-    exports com.mutsa.backend.javaproject2;
+            
+                            
+    opens com.example.javaproject2 to javafx.fxml;
+    exports com.example.javaproject2;
 }
