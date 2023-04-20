@@ -7,5 +7,6 @@ public class CodeUp1011 {
         Scanner sc = new Scanner(System.in);
         String ch = sc.nextLine();
         System.out.printf("%s", ch);
+
     }
 }
