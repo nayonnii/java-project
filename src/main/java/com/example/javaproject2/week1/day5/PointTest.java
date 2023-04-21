@@ -18,6 +18,9 @@ public class PointTest {
         p3.x = 3;
         p3.y = 2;
         System.out.printf("x와 y는 같습니까? %b", p3.isSame());
+
+        // 두 점 사이의 거리 출력문 추가
+        System.out.printf("p1과 p2 사이의 거리는? %.2f\n", p1.getDistance(p2));
     }
 
 }
