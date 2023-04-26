@@ -13,5 +13,6 @@ public class CodeUp1045 {
         System.out.printf("%d\n", iVal1/iVal2);
         System.out.printf("%d\n", iVal1%iVal2);
         System.out.printf("%.2f\n", (float)iVal1/iVal2);
+//      System.out.printf("%.2f\n", iVal1/(iVal2*1.0));   // float 형변환 대신 1.0을 곱하는 방법도 있음
     }
 }
