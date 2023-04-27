@@ -1,4 +1,4 @@
-package com.example.javaproject2.week2.day3;
+package com.example.javaproject2.week2.day4;
 
 public class Accumulate687 {
     public static void main(String[] args) {
