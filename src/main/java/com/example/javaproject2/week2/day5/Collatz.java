@@ -1,0 +1,31 @@
+package com.example.javaproject2.week2.day5;
+
+import java.util.Scanner;
+
+class Solution {
+     public int solution(int num){
+         int answer = 0;
+
+         while(true) {
+             if(num % 2 == 0) {
+                 num = num / 2;
+             } else {
+                 num = num * 3 + 1;
+             }
+             answer++;
+
+             if(num == 1)
+                 break;
+         }
+         return answer;
+     }
+}
+
+public class Collatz {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Solution s = new Solution();
+        System.out.println(s.solution(sc.nextInt()));
+    }
+}
