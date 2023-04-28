@@ -1,4 +1,4 @@
-package com.example.javaproject2.week2.day5;
+package com.example.javaproject2.week2.day5.challenge;
 
 import java.util.Arrays;
 import java.util.Scanner;

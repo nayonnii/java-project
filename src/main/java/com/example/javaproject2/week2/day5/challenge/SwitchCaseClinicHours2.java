@@ -1,4 +1,4 @@
-package com.example.javaproject2.week2.day5;
+package com.example.javaproject2.week2.day5.challenge;
 
 public class SwitchCaseClinicHours2 {
     public static void main(String[] args) {

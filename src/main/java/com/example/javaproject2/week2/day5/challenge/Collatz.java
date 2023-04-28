@@ -1,4 +1,4 @@
-package com.example.javaproject2.week2.day5;
+package com.example.javaproject2.week2.day5.challenge;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ class Solution {
              if(num % 2 == 0) {
                  num /= 2;
              } else {
-                 num *= 3 + 1;
+                 num = num * 3 + 1;
              }
              answer++;
 
@@ -29,6 +29,6 @@ public class Collatz {
         Scanner sc = new Scanner(System.in);
 
         Solution s = new Solution();
-        System.out.println(s.solution(sc.nextLong()));
+        System.out.println(s.solution(sc.nextInt()));
     }
 }
