@@ -12,7 +12,7 @@ class Solution4 {
 
             NumCheck:   // num의 각 자릿수가 5 혹은 0으로 이루어져있는지 판별하는 loop
             while(true){
-                if(num % 10 == 5 || num % 10 == 0) {    // 1. num의 해당하는 자릿수가 5 혹은 0일 경우,
+                 if(num % 5 == 0) {                     // 1. num의 해당하는 자릿수가 5 혹은 0일 경우,
                     if(num / 10 == 0) {                 // 1-1. 이 때 num이 일의자리 수일 경우
                         arr[count] = i;                 //      arr배열에 해당 값 저장
                         count++;                        //      count는 배열에 값이 저장될 때마다 +1씩 증가
