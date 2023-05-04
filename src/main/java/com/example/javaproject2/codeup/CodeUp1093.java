@@ -10,8 +10,9 @@ public class CodeUp1093 {
         int[] studentArr = new int[23];
 
         for(int i = 0; i < numArr.length; i++){
-            numArr[i] = sc.nextInt();
-            studentArr[numArr[i] - 1]++;
+//            numArr[i] = sc.nextInt();
+//            studentArr[numArr[i] - 1]++;
+            studentArr[sc.nextInt() - 1]++; // 리팩토링 - 코드 축약
         }
         for(int i = 0; i < studentArr.length; i++){
             System.out.printf("%d ", studentArr[i]);
