@@ -16,8 +16,8 @@ public class CodeUp4596 {
         int maxValue = arr9x9[0][0];
         int maxX = 0;
         int maxY = 0;
-        for(int i = 0; i < arr9x9.length; i++){
-            for(int j = 0; j < arr9x9[i].length; j++){
+        for(int i = 1; i < arr9x9.length; i++){
+            for(int j = 1; j < arr9x9[i].length; j++){
                 if(maxValue < arr9x9[i][j]){
                     maxValue = arr9x9[i][j];
                     maxX = i + 1;
