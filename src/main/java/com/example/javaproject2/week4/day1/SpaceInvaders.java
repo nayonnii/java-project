@@ -1,4 +1,4 @@
-package com.example.javaproject2.week4;
+package com.example.javaproject2.week4.day1;
 
 public class SpaceInvaders {
     int location;   // 멤버변수 선언
