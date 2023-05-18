@@ -7,5 +7,5 @@ public class AverageEx {
         Scanner sc = new Scanner(System.in);
         System.out.printf("%.1f", (sc.nextFloat() + sc.nextFloat()+ sc.nextFloat()) / 3);
 //        System.out.printf("%.1f", (sc.nextInt() + sc.nextInt()+ sc.nextInt()) / 3.0);
-//    }
+    }
 }
